@@ -8,8 +8,9 @@ namespace SodukoGame
 {
     public class Sudoku
     {
-        public int[,] SudokuNumbers {
-            get { return sudokuNumbers} ;
+        public int[,] SudokuNumbers
+        {
+            get { return sudokuNumbers; }
         }
 
         private int[,] sudokuNumbers =
