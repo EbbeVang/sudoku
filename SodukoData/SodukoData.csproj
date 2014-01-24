@@ -39,8 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SudokoDataController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SudokuGame\SudokuGame.csproj">
+      <Project>{07cd9059-5ccb-4fb6-a653-2f72f9d418a0}</Project>
+      <Name>SudokuGame</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
